@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Comfortaa:wght@300;600&display=swap');
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+body{
+	font-family: 'Comfortaa', cursive;
+	margin: 0;
+	background-color: #EEEEEE;
+}
+h1{
+	text-align: center;
+	font-size: 4em;
+}
+h2{
+	text-align: center;
+	color: black;
+	
+}
+header{
+	background-color: #acc5a3ff;
+}
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+}
+.fa{
+	color: darkcyan;
+	font-size: 5em;
+}
+a:link{
+color: black;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: black;
+}
+a:active{
+color: black;
+}
+.home-hero{
+	background-image: url(images/cozy.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+/* Vertical Navigation Bar */
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+nav li{
+  display: inline;
+}
+nav a{
+  text-decoration: none;
+  padding-right: 10px;
+}
+nav a:link{
+ 	color: white;
+ }
+ main a:link{
+ 	color: blue;
+ }
+footer a:link{
+	color: white;
+}
+nav a:visited{
+ 	color: white;
+ }
+nav a:hover{
+ 	color: gray;
+ }
+nav a:active{
+ 	color: lightgray;
+ }
+nav{
+	background-color: #4b6043;
+	border-top: 2px solid #4b6043;
+	border-bottom: 2px solid #4b6043;
+	padding: 5px;
+}
+blockquote{
+	background-color: white;
+	border-left: 10px solid white;
+	padding: 30px;
+}
+
+footer{
+	text-align: center;
+	border-top: 1px solid #4b6043;
+	padding: 10px;
+	background-color: #4b6043;
+	color: white;
+}
+
+.footer-bottom{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+.footer1000{
+	padding-top: 20px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+footer .fa{
+	font-size: 30px;
+	color: #acc5a3ff;
+}
+input[type=submit]{
+  padding: 3px;
+  color: whitesmoke;
+  border-radius: 50px;
+  display: block;
+  background-color: #4b6043;
+}
+form{
+	
+	max-width: 450px;
+	margin: 0 auto;
+}
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+}
+
+/* CSS for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 2em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
